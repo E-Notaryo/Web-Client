@@ -20,7 +20,7 @@ jobs:
 
       - name: Add upstream and fetch
         run: |
-          git remote add upstream https://github.com/ENotaryo/Web-Client.git
+          git remote add upstream https://github.com/E-Notaryo/Web-Client
           git fetch upstream
           git reset --hard upstream/main
 
